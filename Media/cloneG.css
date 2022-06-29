@@ -1,0 +1,178 @@
+@font-face {
+  font-family: OpenSans;
+  src: url(OpenSans.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 8vh auto 13.5vh;
+  gap: 2vh;
+  font-family: OpenSans;
+}
+
+header {
+  grid-row: 1;
+  padding-right: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+header a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #6F6F6F;
+}
+header a:hover {
+  text-decoration: underline;
+}
+header a.btn-primary {
+  background: #1A73E8;
+  padding: 9px 23px;
+  letter-spacing: 0.25px;
+  min-width: 96px;
+  line-height: 16px;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+header a.btn-primary:focus {
+  text-decoration: none;
+}
+header a.link {
+  color: black;
+}
+header a.link, header img {
+  margin-right: 12px;
+}
+header img {
+  width: 25px;
+}
+
+section {
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-start;
+}
+section div {
+  width: 100%;
+}
+section .logo {
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0% 0 2% 0;
+}
+section .logo img {
+  width: 300px;
+}
+section .contenido .Barra {
+  width: 40%;
+  height: 30px;
+  padding: 5px 10px;
+  border-radius: 30px;
+  border: 1px solid #dfe1e5;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+section .contenido .Barra:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+section .contenido .Barra .search input {
+  width: 95%;
+  border: none;
+}
+section .contenido .Barra .search input:focus {
+  outline: none;
+}
+section .contenido .Barra .icon {
+  width: 15px;
+}
+section .contenido .Barra .icon img {
+  width: 15px;
+}
+section .contenido .Botones {
+  margin: 2% 0;
+}
+section .contenido .Botones button {
+  background: #F8F9FA;
+  border: 1px solid #F8F9FA;
+  border-radius: 5px;
+  padding: 8px 30px;
+  color: #44484b;
+  margin: 0 5px;
+}
+section .copyr {
+  grid-row: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+section .copyr img {
+  width: 35px;
+  height: 30px;
+  margin-right: 5px;
+}
+section .copyr a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #6F6F6F;
+}
+section .copyr a:hover {
+  text-decoration: underline;
+}
+section .copyr a {
+  margin: 0%;
+}
+
+footer {
+  grid-row: 3;
+  background: #f2f2f2;
+  color: #6F6F6F;
+  display: grid;
+  align-items: center;
+  grid-template-rows: 7vh 6vh;
+  font-size: 14px;
+}
+footer .top {
+  grid-row: 1;
+  border-bottom: 1px solid #C5C5C5;
+  padding-left: 2%;
+}
+footer .button {
+  grid-row: 2;
+  padding: 0% 2.5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer .button div {
+  width: 50%;
+}
+footer .button a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #6F6F6F;
+}
+footer .button a:hover {
+  text-decoration: underline;
+}
+footer .button .left a {
+  margin-right: 25px;
+}
+footer .button .rigth {
+  text-align: end;
+}
+footer .button .rigth a {
+  margin-left: 25px;
+}/*# sourceMappingURL=cloneG.css.map */
